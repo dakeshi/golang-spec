@@ -1,4 +1,4 @@
-# Expression statements
+# [Expression statements](#expression-statements)
 
 With the exception of specific built-in functions, function and method [calls](/Expressions/calls.html) and [receive operations](/Expressions/receive_operator.html) can appear in statement context. Such statements may be parenthesized.
 
@@ -8,12 +8,12 @@ With the exception of specific built-in functions, function and method [calls](/
 
 The following built-in functions are not permitted in statement context:
 
-```
+```go
 append cap complex imag len make new real
 unsafe.Alignof unsafe.Offsetof unsafe.Sizeof
 ```
 
-```
+```go
 h(x+y)
 f.Close()
 <-ch

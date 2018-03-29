@@ -6,11 +6,11 @@ Identifiers name program entities such as variables and types. An identifier is 
 <a id="identifier">identifier</a> = <a href="/Source code representation/letters_and_digits.html#letter">letter</a> { <a href="/Source code representation/letters_and_digits.html#letter">letter</a> | <a href="/Source code representation/characters.html#unicode_digit">unicode_digit</a> } .
 </pre>
 
-```
+```go
 a
 _x9
 ThisVariableIsExported
 αβ
 ```
 
-Some identifiers are [predeclared](/Declarations and scope/predeclared_identifiers.html).
+Some identifiers are [predeclared](/Declarations%20and%20scope/predeclared_identifiers.html).

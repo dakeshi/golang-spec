@@ -1,4 +1,4 @@
-# Break statements
+# [Break statements](#break-statements)
 
 A "break" statement terminates execution of the innermost "[for](/Statements/for_statements.html)", "[switch](/Statements/switch_statements.html)", or "[select](/Statements/select_statements.html)" statement within the same function.
 
@@ -8,7 +8,7 @@ A "break" statement terminates execution of the innermost "[for](/Statements/for
 
 If there is a label, it must be that of an enclosing "for", "switch", or "select" statement, and that is the one whose execution terminates.
 
-```
+```go
 OuterLoop:
 	for i = 0; i < n; i++ {
 		for j = 0; j < m; j++ {
